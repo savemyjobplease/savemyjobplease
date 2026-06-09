@@ -1,0 +1,12 @@
+# Part A - Masking (notebooks/01_masking.ipynb). Needs a GPU runtime.
+# System packages (Colab/apt): tesseract-ocr tesseract-ocr-eng poppler-utils
+transformers
+accelerate
+bitsandbytes
+PyMuPDF
+rapidfuzz
+pytesseract
+opencv-python-headless
+torch
+Pillow
+numpy

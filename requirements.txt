@@ -1,0 +1,21 @@
+# Top-level dev/runtime requirements for local work on the AI RFQ project.
+# Stage-specific subsets live in requirements-*.txt (install only what a stage needs).
+#
+#   Masking (notebooks/01) ....... requirements-masking.txt   (GPU; local VLM + OCR)
+#   Extraction (notebooks/02) .... requirements-extraction.txt (OpenAI + Anthropic)
+#   Pricing (notebooks/03 + src/pricing) ... requirements-pricing.txt
+
+# shared core
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+python-dotenv
+
+# pricing calibration layer (optional DL backend; sklearn fallback exists)
+torch
+
+# cloud NLP (analog retrieval / extraction)
+openai
+anthropic

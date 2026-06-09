@@ -1,0 +1,8 @@
+# Part B - Extraction (notebooks/02_extraction.ipynb). Cloud APIs, no GPU.
+# System packages (Colab/apt): poppler-utils   (for pdf2image)
+openai
+anthropic
+pdf2image
+Pillow
+openpyxl
+pandas

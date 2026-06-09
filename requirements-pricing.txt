@@ -1,0 +1,8 @@
+# Price estimation cost engine (notebooks/03 + src/pricing).
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+torch          # optional DL calibration backend; sklearn fallback exists
+openai         # optional analog-retrieval embeddings; offline fallback exists
